@@ -1,0 +1,36 @@
+Correlations:
+        
+Visitor vs hour+weekday+month+branch office
+
+
+It seems that theres no difference when comparing across months for the time sessions distributions (one dimen. box plot). It can only be compared using branch office 1
+
+It seems that there's a difference on number of visits/non-visits (devices activted) across different days of the week and across different hours of the day
+
+There is also dependance on the branch office (say location)
+
+So we have
+
+Visitor ~ hour+weekday+branch office
+
+
+No missing values. (2nd and 3rd branches have missing data for October but that is not possible to fill, it would be different if just some days had missing values)
+
+
+
+Training and Test
+
+We have the test data given so I dont have t subset a dataset. For modeling I would divide the training data as: 70% for model bualding and 30% for model testing
+
+I have to predict the visitors outcome (true or false) and branch office.
+
+### Features
+# The are not many features I will create new variables:
+
+# 1. There may be users that are frequent clients, I will create a frequent variable for users
+# or devices that appear twice on the period the data was collected (for different days on the total period of time).
+# 2. I will convert Weekdays to binaries
+# 3. I will convert branch_office to binaries
+# 4. I will leave hour as categorical
+
+# Large session time
