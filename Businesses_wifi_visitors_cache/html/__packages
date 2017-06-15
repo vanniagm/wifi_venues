@@ -1,0 +1,17 @@
+base
+knitr
+rmarkdown
+lubridate
+plyr
+reshape2
+ggplot2
+dplyr
+tidyr
+scales
+lattice
+caret
+rpart
+rattle
+rpart.plot
+RColorBrewer
+randomForest

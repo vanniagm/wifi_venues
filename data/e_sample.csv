@@ -1,0 +1,10 @@
+"","device_mac","branch_office","month_tz","day_tz","day_of_week_tz","hour_tz","visitor","tiempodeses"
+"1","00:00:00:6a:17:ce",1,11,2,"Wednesday",0,"true",2676
+"2","00:00:00:6a:17:ce",1,11,2,"Wednesday",1,"true",2676
+"3","00:00:00:6a:78:ae",1,10,30,"Sunday",20,"false",0
+"4","00:00:02:fa:9c:12",1,11,13,"Sunday",12,"true",2272
+"5","00:00:08:7d:e2:58",3,11,4,"Friday",19,"false",0
+"6","00:00:31:04:ad:89",3,11,3,"Thursday",5,"false",0
+"7","00:00:31:04:bc:da",2,11,4,"Friday",19,"false",0
+"8","00:00:77:34:37:30",3,11,5,"Saturday",17,"false",0
+"9","00:01:0a:0f:ed:98",1,11,19,"Saturday",16,"false",0
